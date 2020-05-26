@@ -8,5 +8,5 @@ export async function s3Upload(file) {
     contentType: file.type
   })
 
-  return stored;
+  return stored.key;
 }
