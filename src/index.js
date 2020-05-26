@@ -23,7 +23,7 @@ Amplify.configure({
   API: {
     endpoints: [
       {
-        name: "notes",
+        name: "notes-quang",
         endpoint: config.apiGateway.URL,
         region: config.apiGateway.REGION
       },
